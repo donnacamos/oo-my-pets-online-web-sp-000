@@ -51,5 +51,5 @@ def walk_dogs
     end 
     
     def list_pets 
-      "I have "
+      "I have #{@pets[:fishes].length} fish"
 end 
