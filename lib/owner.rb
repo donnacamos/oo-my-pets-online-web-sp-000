@@ -42,4 +42,5 @@ def walk_dogs
       end 
       
     def sell_pets
+      @pets.each do |
 end 
