@@ -7,5 +7,5 @@ class Owner
   def initialize(species, pets = {:fishes => [], :dogs => [], :cats => [])
   @species = species
   @pets = pets 
-  @
+  @@owners << self 
 end
