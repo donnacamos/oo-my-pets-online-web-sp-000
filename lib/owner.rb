@@ -47,5 +47,8 @@ def walk_dogs
           pet.mood = "nervous" 
         end 
       end 
-      pets
+      @pets = [] 
+    end 
+    
+    def 
 end 
