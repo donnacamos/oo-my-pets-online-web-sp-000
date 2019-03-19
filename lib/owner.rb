@@ -26,5 +26,6 @@ def buy_dog(dog_name)
   @pets[:dogs] << Dog.new(dog_name) 
 end 
 
-def walk_dog()
+def walk_dogs 
+  
 end 
