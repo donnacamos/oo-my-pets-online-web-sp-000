@@ -4,6 +4,6 @@ class Owner
   
   @@owner = [] 
   
-  def initialize(species)
+  def initialize(species, pets = {})
   
 end
