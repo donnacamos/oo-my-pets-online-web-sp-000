@@ -66,3 +66,4 @@ def walk_dogs
       @@owners.length
     end 
   end 
+  
