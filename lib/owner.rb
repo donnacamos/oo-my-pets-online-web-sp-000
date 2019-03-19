@@ -42,5 +42,6 @@ def walk_dogs
       end 
       
     def sell_pets
-      @pets.each do |
+      @pets.each do |type, name_array| 
+        
 end 
