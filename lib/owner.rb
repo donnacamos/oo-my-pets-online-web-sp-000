@@ -4,6 +4,6 @@ class Owner
   
   @@owner = [] 
   
-  def initialize(species, pets = {:fishes => {}, :dogs => {}, :cats => {}})
+  def initialize(species, pets = {:fishes => [], :dogs => [], :cats => [])
   
 end
