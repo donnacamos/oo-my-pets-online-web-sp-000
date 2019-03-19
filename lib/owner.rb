@@ -62,5 +62,7 @@ def walk_dogs
       @@owners.clear  
     end 
     
-    
-end 
+    def self.count
+      @@owners.length
+    end 
+  end 
