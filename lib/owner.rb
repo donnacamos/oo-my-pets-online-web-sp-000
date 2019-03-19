@@ -43,5 +43,7 @@ def walk_dogs
       
     def sell_pets
       @pets.each do |type, name_array| 
-        name_array.each do |pets| 
+        name_array.each do |pet| 
+          pet.mood = "nervous" 
+          
 end 
