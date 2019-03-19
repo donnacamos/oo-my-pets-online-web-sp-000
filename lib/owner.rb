@@ -54,5 +54,9 @@ def walk_dogs
       "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].length} dog(s), and #{@pets[:cats].length} cat(s)." 
     end 
     
+    def self.all 
+      @@owners
+    end 
     
+    def 
 end 
