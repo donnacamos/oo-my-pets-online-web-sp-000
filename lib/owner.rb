@@ -8,4 +8,7 @@ class Owner
   @species = species
   @pets = pets 
   @@owners << self 
+end 
+
+
 end
