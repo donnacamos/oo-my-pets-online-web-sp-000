@@ -15,5 +15,5 @@ def say_species
 end 
 
 def buy_fish(fish_name)
-  @pets[:fishes]
+  @pets[:fishes] << Fish.new()
 end
