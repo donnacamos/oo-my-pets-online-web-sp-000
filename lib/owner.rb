@@ -59,6 +59,8 @@ def walk_dogs
     end 
     
     def self.reset_all
-      @@owners 
+      @@owners.clear  
     end 
+    
+    
 end 
