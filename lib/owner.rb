@@ -58,5 +58,7 @@ def walk_dogs
       @@owners
     end 
     
-    def 
+    def self.reset_all
+      @@owners 
+    end 
 end 
