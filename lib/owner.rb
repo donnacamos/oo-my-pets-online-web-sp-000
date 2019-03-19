@@ -50,5 +50,6 @@ def walk_dogs
       @pets = [] 
     end 
     
-    def 
+    def list_pets 
+      "I have "
 end 
